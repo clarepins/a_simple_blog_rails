@@ -13,3 +13,19 @@
  *= require_tree .
  *= require_self
  */
+
+ html {
+   font-family: DejaVu Sans Mono, monospace;
+ }
+
+ .body {
+   background-color: #ccff15;
+   color: #c32aff;
+ }
+
+ .button {
+   color: white;
+ }
+@import 'materialize';
+@import "materialize/components/color-variables";
+@import "materialize/components/color-classes";

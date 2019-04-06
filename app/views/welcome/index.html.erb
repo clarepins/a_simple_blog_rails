@@ -5,7 +5,12 @@
     <title>Welcome</title>
   </head>
   <body>
-    <h1>Welcome to BLOGTASTIC!</h1>
-    <h2>A place for blogaholics all over the world.</h2>
+    <div class='container'>
+      <h1>Welcome to BLOGTASTIC!</h1>
+      <h2>A place for blogaholics all over the world.</h2>
+      <div class="btn-large waves-effect #ff4081 pink accent-2" class="button">
+        <%= link_to 'New Article', new_article_path %>
+      </div>
+    </div>
   </body>
 </html>
