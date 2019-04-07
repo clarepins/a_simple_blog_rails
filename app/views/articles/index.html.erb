@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>All articles</title>
+  </head>
+  <body>
+    <% @articles.each do |article| %>
+      <div class="card-panel #18ffff cyan accent-2">
+        <strong><%= article.title %></strong><br>
+        <%= article.text %>
+      </div>
+    <% end %>
+  </body>
+</html>
