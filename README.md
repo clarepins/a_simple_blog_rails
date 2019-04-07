@@ -1,11 +1,17 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a *blogTastic* blogging site built for blogaholics to blog about blogging.
+It takes inspiration from the '[https://guides.rubyonrails.org/getting_started.html](getting started with rails)' guide.
 
-Things you may want to cover:
+* Deployment instructions:
+$`bundle`
+$`rails s`
+visit http://localhost:3000
 
-* Ruby version
+* Key technologies:
+- ruby '2.5.0'
+- Ruby on Rails '5.2.3'
+- Materialize for styling.
 
 * System dependencies
 
@@ -13,12 +19,9 @@ Things you may want to cover:
 
 * Database creation
 
-* Database initialization
+* Database initialisation
 
-* How to run the test suite
+* How to run the test suite:
+$`rake spec`
 
 * Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
